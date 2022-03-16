@@ -1,0 +1,40 @@
+.Team {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: var(--dark-mode-bg-7);
+}
+
+.btnDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.alumniBtn {
+  padding: 12px 30px;
+  text-decoration: none;
+  color: white;
+  background: var(--google-blue);
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  transition: 0.2s;
+  font-size: 14px;
+  font-weight: 500;
+  transform: translateY(-1px);
+  /* margin-left: 44vw; */
+  margin-bottom: 2rem;
+  /* margin-top: 4rem; */
+}
+
+.alumniBtn:hover {
+  background: #ffffff;
+  border-radius: 2px;
+  color: var(--google-blue);
+  text-decoration: none;
+}
+
+.alumniBtn:active {
+  transform: translateY(0px);
+}

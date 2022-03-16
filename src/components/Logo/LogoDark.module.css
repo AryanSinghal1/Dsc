@@ -1,0 +1,43 @@
+@font-face {
+  font-family: ProductSans-Bold;
+  src: url(../../assets/fonts/ProductSans-Bold.ttf);
+}
+@font-face {
+  font-family: Product Sans;
+  src: url(../../assets/fonts/ProductSans-Regular.ttf);
+}
+
+.Logo {
+  width: 21.8rem;
+  height: 42.36px;
+  transition: 0.2s;
+  font-family: ProductSans-Bold;
+  font-weight: 700;
+}
+
+@media (max-width: 490px) {
+  .Logo {
+    width: 16.4rem;
+    height: 32.36px;
+  }
+}
+@media (max-width: 390px) {
+  .Logo {
+    width: 13.0rem;
+    height: 29.36px;
+  }
+}
+
+@media (max-width: 330px) {
+  .Logo {
+    width: 10.5rem;
+    height: 26.36px;
+  }
+}
+
+@media (max-width: 310px) {
+  .Logo {
+    width: 9.0rem;
+    height: 18.76px;
+  }
+}

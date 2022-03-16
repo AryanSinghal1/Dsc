@@ -1,0 +1,430 @@
+
+.container{
+    
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(245, 239, 239);
+}
+
+.left{
+    /* flex:0.85; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    text-align: end;
+    
+}
+.flutter{
+    color: rgb(86, 86, 172);
+    width: 70%;
+    height: 60%;
+    font-size: 60px;
+    padding-right: 50px;
+    /* padding-bottom: 10px; */
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    /* background-color: brown; */
+}
+.sub{
+    padding-right: 50px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    letter-spacing: 0.2px;
+}
+.icons{
+    margin-right: 50px;
+    padding: 10px;
+    /* height: 40px; */
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inicons{
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    background-color: rgb(147, 147, 211);
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.right{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+.rightdiv{
+    /* flex:1; */
+    position: absolute; 
+    right: 0;
+    width: 95%;
+    height: 90%;
+    background-color: rgb(86, 86, 172);
+    border-radius: 20px 0 0 0;
+    /* border-radius: 20px 0px; */
+}
+.rightimage{
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    height: 90%;
+    background-color: aquamarine;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.rightimg{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    /* margin-top: 60px;
+    margin-left: -15px; */
+    /* height: 200px; */
+}
+.content{
+    display: flex;
+    /* height: 100vh; */
+    width: 100%;
+    background-color:rgb(209, 213, 228);
+}
+.contentleft{
+    /* flex:0.85; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contimg{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+.contentright{
+    /* flex: 1.15; */
+    width: 50%;
+
+}
+h1.conthead{
+    font-size: 40px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-weight: 700;
+    color: rgb(86, 86, 172);
+}
+
+.maincont{
+    font-size: 20px;
+    padding-bottom: 100px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.morecontent{
+    display: flex;
+    width: 100%;
+    padding-bottom: 50px;
+    /* height: 50vh; */
+    background-color:rgb(245, 239, 239);
+    margin-bottom: 60px;
+}
+.moreleft{
+    /* padding: 30px; */
+    /* flex:0.85; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    /* background-color: aqua; */
+}
+h1.morehead{
+    font-size: 40px;
+    padding: 30px 40px;
+    color: #121212;
+    /* align-self: center; */
+}
+p.morecont{
+    /* padding-bottom: 20px; */
+    /* padding-left: 30px; */
+    font-size: 25px;
+    text-align: center;
+}
+.contleft{
+    width: 85%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.numbers{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.moreright{
+    /* flex:1.15; */
+    width: 50%;
+    position: relative;
+}
+.percent, .no{
+    font-size: 55px;
+}
+.morerightImage{
+    width: 90%;
+    height: 130%;
+    /* background-color: aqua; */
+    position: absolute;
+}
+.moreimg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -30px;
+    /* height: 400px; */
+    /* margin-top: 40px; */
+    border-radius: 10px;
+    object-fit: cover;
+}
+.totalcontainer{
+    width: 100%;
+    padding: 30px;
+}
+.totalviews{
+
+    width: 90%;
+    margin: auto;
+    background-color:rgb(245, 239, 239) ;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.total{
+    font-size: 50px;
+    font-weight: 400;
+}
+span.count{
+    font-size: 80px;
+    padding-left: 30px;
+}
+.prevrollout{
+    padding-left: 40px;
+    font-size: 40px;
+    letter-spacing: 1px;
+    /* background-color:rgb(209, 213, 228) ; */
+    text-decoration: underline;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color:rgb(209, 213, 228) ; */
+    
+    /* flex-direction: column; */
+    padding: 10px;
+    
+    /* padding-top: 0px; */
+
+    
+
+}
+.prevcontainer{
+    display:flex;
+    
+    flex-direction: column;
+    margin: 5px;
+    background-color: rgb(147, 147, 211);
+    border-radius: 20px;
+    width: 400px;
+    height: 450px;
+    margin: auto;
+    margin-bottom: 40px;
+    
+}
+.imgcontain{
+    width: 100%;
+    height: 60%;
+}
+.fluttimg{
+    width:100%;
+    height: 100%;
+    /* height: 200px; */
+    object-fit: cover;
+    border-radius: 10px;
+    /* position: relative; */
+    
+    
+}
+.wrap{
+    /* margin: auto; */
+    width: 100%;
+    height: 40%;
+    padding: 20px;
+    padding-left: 40px;
+}
+.prevtitle{
+    color:white;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.prevsub{
+    font-size: 12px;
+    color: white;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.btn{
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+@media screen  and (max-width:1024px ){
+    h1.conthead{
+        font-size: 30px;
+    }
+    p.maincont{
+        font-size: 15px;
+    }
+    p.morecont{
+        font-size: 20px;
+    }
+    h1.morehead{
+        font-size: 27px;
+    }
+}
+@media screen  and (max-width:768px ){
+    h1.conthead{
+        font-size: 20px;
+    }
+    .morecontent{
+        height: 50vh;
+    }
+    p.maincont{
+        font-size: 10px;
+    }
+    h1.morehead{
+        font-size: 23px;
+        padding: 20px 0 0px 0;
+    }
+    p.morecont{
+        font-size: 15px;
+    }
+    h3.no , h3.percent{
+        font-size: 25px;
+    }
+    
+}
+@media screen  and (max-width:425px ){
+    h1.morehead{
+        font-size: 18px;
+    }
+}
+@media screen  and (max-width:939px ){
+    .flutter{
+        font-size: 40px;
+    }
+    
+    h1.conthead{
+        /* font-size: 40px; */
+        padding-bottom: 10px;
+    }
+    .rightimg{
+        /* width: 90%; */
+        /* height: 100%; */
+        /* height: 514px; */
+    }
+    .contimg{
+        /* width: 300px; */
+        /* height: 500px; */
+    }
+}
+@media screen  and (max-width:768px ){
+    /* .container{
+        display: none;
+    } */
+    .left{
+        /* flex: 1; */
+    }
+    .flutter{
+        font-size: 50px;
+    }
+    .right{
+        /* display: none; */
+    }
+    .content{
+        /* width: 100%; */
+        /* flex:1; */
+        
+    }
+    .maincont{
+        /* font-size: 20px; */
+    }
+    .contentleft{
+        /* display: none; */
+    }
+   
+    .contentright{
+        /* margin: auto; */
+        /* margin-left: 50px; */
+        /* padding: 20px; */
+        /* padding-left: 10%; */
+    }
+    .morecontent{
+        /* flex-direction: column-reverse; */
+    }
+    
+    .total{
+        font-size: 20px;
+    }
+    span.count{
+        font-size: 20px;
+    }
+    .moreright{
+        /* margin-left: 8%; */
+
+    }
+    /* .moreimg{
+        margin: auto;
+    } */
+    .moreleft{
+        /* margin-left: 4%; */
+        /* margin-right: 5%; */
+    }
+    .prevcontainer{
+        /* width: 300px; */
+        
+        
+    }
+    .prevrollout{
+        font-size: 30px;
+    }
+    h1.conthead{
+        /* font-size: 50px; */
+    }
+    h1.morehead{
+        /* font-size: 50px; */
+        /* padding: 20px; */
+    }
+}
+@media screen  and (max-width:370px ){
+    .left{
+        /* width: 100%; */
+    }
+    .flutter{
+        font-size: 30px;
+    }
+    .sub{
+        font-size: 15px;
+    }
+}

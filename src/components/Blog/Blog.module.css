@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+.Blog {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  /* width: 100vw;
+  height: 200vh; */
+  display: grid;
+  justify-items: center;
+  /* justify-content: center;
+  flex-direction: column; */
+}
+/* Dark Mode */
+/* .Blog {
+  background-color: #121212;
+} */
+.blogPage{
+  max-width: 1170px;
+  width: 85%;
+  margin-top: 50px;
+}
+.title{
+  font-family: 'Google Sans', sans-serif;
+  font-weight: 700;
+  font-size: 6rem;
+  color: #212529;
+  transition: 0.2s;
+  margin: 0 auto;
+}
+/* Dark Mode */
+/* .title{
+  color: var(--dark-mode-text-color-2);
+} */
+.mainBlog{
+  width: 100%;
+  display: flex;
+  margin: 5% auto;
+}
+.image{
+  width: 60%;
+  height: auto;
+  /* background-color: aquamarine; */
+  overflow: hidden;
+}
+
+.image img{
+  /* border-radius: 10px; */
+  /* object-fit: cover; */
+}
+.infoMain{
+  width: 50%;
+  /* height: 100%; */
+  padding: 10px 40px;
+}
+.info{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.info h2{
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: -2px;
+  margin: 0;
+}
+.info p{
+  margin: 0;
+  font-size: 1.2rem;
+  color: #676d94;
+  font-weight: 500;
+}
+@media only screen and (max-width:1024px){
+  
+}
+@media only screen and (max-width:768px){
+  .title{
+    font-size: 5rem;
+  }
+  .info p{
+    font-size: 1rem;
+  }
+  .info h2{
+    font-size: 2.35rem;
+  }
+}
+
+@media only screen and (min-width:738px){
+    .info p{
+      /* font-size: 1rem; */
+    }
+    .infoMain{
+      /* overflow: hidden; */
+      /* white-space: nowrap; */
+    }
+  }
+  /* @media only screen and (max-width:738px){
+    .infoMain, .image{
+      width: 100%;
+    }
+    .infoMain{
+      padding: 10px 0;
+    }
+    .mainBlog{
+      flex-direction: column;
+    }
+    
+    .info p{
+      margin: 2px;
+      font-weight: normal;
+    }
+    .info h1{
+        font-size: 2rem;
+        color: #212529;
+      }
+  } */
+@media only screen and (max-width:425px){
+  .title{
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: initial;
+    font-weight: bold;
+    justify-content: center;
+  }
+  .info p{
+    /* font-size: 0.5rem; */
+  }
+    .info h2{
+      font-size: 1.7rem;
+    }
+    
+  }
+  @media only screen and (max-width:320px){
+    
+    .blogPage h1{
+      font-size: 3rem;
+    }
+    .info p{
+      /* font-size: 0.3rem; */
+    }
+}
+/* @media only screen and (max-width:1024px){
+
+} */
