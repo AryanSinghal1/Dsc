@@ -301,10 +301,12 @@
 .blogCards{
   /* height: 450px; */
   /* width: 100%; */
-  background-color: var(--google-blue);
-  border-radius: 20px;
+  /* background-color: var(--google-blue); */
+  border-radius: 13px;
+  box-shadow: 2px 2px 10px #d3d3d3;
   /* margin: 5px 0; */
 }
+
 .blogImage{
   width: 100%;
   height: auto;
@@ -323,35 +325,81 @@
   height: 50%;
   display: flex;
   justify-content: center;
-  margin: 6% 0;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% 0;
+}
+.domains{
+  width: 85%;
+  height: 10%;
+  margin-bottom: 15px;
+}
+.blogDomain{
+  border: none;
+  pointer-events: none;
+  /* width: 150px; */
+  padding: 0px 20px ;
+  height: 25px;
+  border-radius: 20px;
+  /* background-color:#4285f4; */
+  background-color: rgba(66, 133, 244, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#4285f4;
+  font-size: 12px;
 }
 .blogInfo1{
-  width: 80%;
-  height: 80%;
+  word-wrap:break-word;
+  width: 85%;
+  height: 60%;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  /* padding: 0 3%; */
+}
+.buttonread{
+  margin: 15px 0 40px 0;
+  width: 85%;
+  height: 30%;
 }
 p.dates{
   font-size: 0.8rem;
   line-height: 1.04rem;
-  color: #676d94;
+  /* color: #676d94; */
 }
 p.infop{
   text-overflow: ellipsis;
   font-size: 0.9rem;
-   line-height: 1.17rem;
-   color: #676d94;
-   display: -webkit-box;
-   -webkit-line-clamp: 4;
-   line-clamp: 4; 
-   -webkit-box-orient: vertical;
-   overflow: hidden;
+  line-height: 1.1rem;
+  /* color: #676d94; */
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.readMore{
+  padding: 5px 10px;
+  border: none;
+  /* width: 96px; */
+  /* height: 36px; */
+  border-radius: 10px;
+  /* background-color: var(--google-blue); */
+  color: rgba(66, 133, 244);
+    font-size: 15px;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px gainsboro,inset -1px -1px 2px gainsboro;
+    /* color: #fff; */
+    transition: all 0.2s ease-in-out;
+  }
+  .readMore:hover{
+    background-color: rgba(66, 133, 244, 0.1);
   }
   /* Dark Mode */
   p.dates, p.infop{
     /* color: var(--dark-mode-text-color-soft-2); */
-    color: var(--dark-mode-text-color-2);
+    /* color: var(--dark-mode-text-color-2); */
   }
 .blogInfo p{
   margin: 0px;
@@ -370,7 +418,7 @@ p.infop{
 }
 /* Dark Mode */
 .blogInfo h1{
-  color: var(--dark-mode-text-color-2);
+  /* color: var(--dark-mode-text-color-2); */
 }
 /* .buttonHolder{
   width: 100%;

@@ -43,13 +43,19 @@ const BlogCard = (props) => {
         <img className = {classes.blogImage} src={props.image}></img>
         </div>
       <div className={classes.blogInfo}>
+        <div className={classes.domains}>
+            <button className={classes.blogDomain}>{props.domain}</button>
+        </div>
       <div className={classes.blogInfo1}>
         {/* <p className={classes.dates}>{props.date} {props.month} {year}</p> */}
-        <a href="#"><h1>{props.title}</h1></a>
+        <h1>{props.title}</h1>
         {/* <p className={classes.dates}>{props.author}</p> */}
         {/* <br/> */}
         <p className={classes.infop}>{props.description}</p>
       </div>
+<div className={classes.buttonread}>
+  <button className={classes.readMore}>Read More</button>
+</div>
       </div>
     </div>
   );

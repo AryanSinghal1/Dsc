@@ -19,7 +19,7 @@ import Blog from "../Blog/Blog";
 import ScrollToTop from "../../ScrollToTop";
 import Error404 from "../Error404/Error404";
 import BlogOpen from "../Blog/BlogOpen/BlogOpen";
-// import EmailVerify from "../EmailVerify/EmailVerify";
+import EmailVerify from "../EmailVerify/EmailVerify";
 // import Otp from "../OTP/otp";
 // import Footer from "../UI/Footer/Footer";
 
@@ -115,11 +115,11 @@ class Layout extends Component {
                       path="/alumni"
                       component={() => <Alumni theme={this.state.theme} />}
                     />
-                    {/* <Route
+                    <Route
                       path="/register"
                       component={() => <EmailVerify theme={this.state.theme} />}
                     />
-                    <Route
+                    {/* <Route
                       path="/otp"
                       component={() => <Otp theme={this.state.theme} />}
                     />

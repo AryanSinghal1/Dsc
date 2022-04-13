@@ -13,6 +13,7 @@ export const BlogData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium debitis praesentium sint nemo quia incidunt aliquam nulla quisquam delectus odio omnis, doloribus suscipit architecto magni inventore odit repellat? Eum, non.",
     image: blogImg,
+    domain: "Web Dev",
   },
   {
     id: 2,
@@ -25,6 +26,7 @@ export const BlogData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium debitis praesentium sint nemo quia incidunt aliquam nulla quisquam delectus odio omnis, doloribus suscipit architecto magni inventore odit repellat? Eum, non.",
     image: blogImg,
+    domain: "App Dev",
   },
   {
     id: 3,
@@ -37,6 +39,7 @@ export const BlogData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium debitis praesentium sint nemo quia incidunt aliquam nulla quisquam delectus odio omnis, doloribus suscipit architecto magni inventore odit repellat? Eum, non.",
     image: blogImg,
+    domain: "Machine Learning",
   },
   {
     id: 4,
@@ -49,6 +52,7 @@ export const BlogData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium debitis praesentium sint nemo quia incidunt aliquam nulla quisquam delectus odio omnis, doloribus suscipit architecto magni inventore odit repellat? Eum, non.",
     image: blogImg,
+    domain: "Designing",
   },
   {
     id: 5,
@@ -61,6 +65,7 @@ export const BlogData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium debitis praesentium sint nemo quia incidunt aliquam nulla quisquam delectus odio omnis, doloribus suscipit architecto magni inventore odit repellat? Eum, non.",
     image: blogImg,
+    domain: "Managerial",
   },
   {
     id: 6,
@@ -73,6 +78,7 @@ export const BlogData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium debitis praesentium sint nemo quia incidunt aliquam nulla quisquam delectus odio omnis, doloribus suscipit architecto magni inventore odit repellat? Eum, non.",
     image: blogImg,
+    domain: "Web Dev",
   },
   {
     id: 7,
@@ -85,6 +91,7 @@ export const BlogData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium debitis praesentium sint nemo quia incidunt aliquam nulla quisquam delectus odio omnis, doloribus suscipit architecto magni inventore odit repellat? Eum, non.",
     image: blogImg,
+    domain: "Web Dev",
   },
   {
     id: 8,
@@ -97,6 +104,7 @@ export const BlogData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium debitis praesentium sint nemo quia incidunt aliquam nulla quisquam delectus odio omnis, doloribus suscipit architecto magni inventore odit repellat? Eum, non.",
     image: blogImg,
+    domain: "Web Dev",
   },
   {
     id: 9,
@@ -109,6 +117,7 @@ export const BlogData = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium debitis praesentium sint nemo quia incidunt aliquam nulla quisquam delectus odio omnis, doloribus suscipit architecto magni inventore odit repellat? Eum, non.",
     image: blogImg,
+    domain: "Web Dev",
   },
   {
     id: 10,

@@ -1,7 +1,9 @@
 import React,{useState} from 'react';
-import {useHistory} from 'react-router-dom'
-import './EmailVerify.module.css';
-
+import {useHistory} from 'react-router-dom';
+import classes from './EmailVerify.module.css';
+import eventLogo from '../../assets/images/Logo.svg';
+import logo from '../../assets/Logo/logo_4.png';
+import Footer from '../UI/Footer/Footer';
 const EmailVerify = () => {
     const navigate = useHistory();
     const [user, setUser] = useState({
@@ -37,36 +39,100 @@ const EmailVerify = () => {
             navigate.push("/otp")
         }
     }
-    return (
-        <div className='verify'>
-            <form method="POST">
-                <div class="form-body">
-                    <div class="row">
-                        <div class="form-holder">
-                            <div class="form-content">
-                                <div class="form-items">
-                                    <h3>Register Today</h3>
-                                    <p>Fill in the data below.</p>           
-                                    <div class="col-md-12">
-                                        <input class="form-control" type="text" name="name" placeholder="Full Name" value = {user.name} onChange = {handleInputs} required/>
-                                    </div>            
-                                    <div class="col-md-12">
-                                        <input class="form-control" type="email" name="email" placeholder="E-mail Address" value = {user.email} onChange = {handleInputs} required />
-                                    </div>     <br/>       
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required/>
-                                        <label class="form-check-label">I confirm that all data are correct</label>
-                                    </div>
-                                    <div class="form-button mt-3">
-                                        <button id="submit" type="submit" class="bts" onClick={PostData}>Validate</button>
-                                    </div>
-                                </div>
+    return (<>
+        <div className={classes.verify}>
+            <form className={classes.registerForm} method='POST'>
+            <div className={classes.register}>
+            <div className={classes.eventInfo}>
+                <img className={classes.eventImage} src={eventLogo}/>
+                <h3 className={classes.eventh3}>Please fill in the details below</h3>
+            </div>
+            <div className={classes.profileInfo}>
+            <div className={classes.profileDetails}>
+                <h3 className={classes.profileh3}>Profile Information</h3>
+                <p className={classes.profileMessage}>The Information will be visible to the event organizers.</p>
+                </div>
+            <div className={classes.profileForm}>
+            <div className={classes.profileFormContainer}>
+            <div className={classes.profileFields}>
+                <input className={classes.profileInputs} type="text" name="fullname" required>
+                </input>
+                <span className={classes.inputLabel}>Full Name</span>
+                </div>
+            <div className={classes.profileFields}>
+                <input className={classes.profileInputs} type="text" name="name1" required></input>
+                <span className={classes.inputLabel}>Year</span>
+                </div>
+            <div className={classes.profileFields}>
+                <input className={classes.profileInputs} type="text" name="name2" required></input>
+                <span className={classes.inputLabel}>Student Number</span>
+                </div>
+            <div className={classes.profileFields}>
+                <input className={classes.profileInputs} type="text" name="name3" required></input>
+                <span className={classes.inputLabel}>Student Number</span>
+                </div>
+                </div>
+                </div>
+                </div>
+                <div className={classes.teamInfo}>
+                    <div className={classes.teamMessage}>
+                    <h3 className={classes.profileh3}>You and Our Team</h3>
+                    <h3 className={classes.dscTeamMessage}>We may want to reach out to you to invite you to other events or let you know about other opportunities at GDSC AKGEC. Let us know if you'd like in. By opting-in, you acknowledge that your WebWrap profile Information may be shared with GDSC AKGEC team.</h3>
+                </div>
+                    <div className={classes.teamForm}>
+                        <div className={classes.teamFormContainer}>
+                            <div className={classes.profileBox}>
+                                <label className={classes.formLabel}>Do you want to be informed via email for future events?</label>
+                            <div className={classes.choiceBox}>
+                            <div className={classes.choiceSelect}>
+                                <input type='radio' name='choice1' value='Yes'></input>
+                                <span className={classes.choices}>Yes</span>
                             </div>
+                            <div className={classes.choiceSelect}>
+                                <input type='radio' name='choice1'value='No'></input>
+                                <span className={classes.choices}>No</span>
+                            </div>
+                            </div>
+                            </div>
+                            <div className={classes.profileBox}>
+                                <label className={classes.formLabel}>Do you want to be informed via email for future events?</label>
+                            <div className={classes.choiceBox}>
+                            <div className={classes.choiceSelect}>
+                                <input type='radio' name='choice2' value='Yes'></input>
+                                <span className={classes.choices}>Yes</span>
+                            </div>
+                            <div className={classes.choiceSelect}>
+                                <input type='radio' name='choice2'value='No'></input>
+                                <span className={classes.choices}>No</span>
+                            </div>
+                            </div>
+                            </div>
+                            <div className={classes.profileBox}>
+                                <label className={classes.formLabel}>Do you want to be part of the club</label>
+                            <div className={classes.choiceBox}>
+                            <div className={classes.choiceSelect}>
+                                <input type='radio' name='choice3' value='Yes'></input>
+                                <span className={classes.choices}>Yes</span>
+                            </div>
+                            <div className={classes.choiceSelect}>
+                                <input type='radio' name='choice3'value='No'></input>
+                                <span className={classes.choices}>No</span>
+                            </div>
+                            </div>
+                            </div>
+            <div className={classes.profileFields}>
+                <input className={classes.profileInputs} type="text" required></input>
+                <span className={classes.inputLabel}>Why do you want to join the club?</span>
+                </div>
+                <button className={classes.regButton}>Register Now</button>
                         </div>
                     </div>
                 </div>
-            </form>
+            </div>
+                </form>
+                <Footer/>
         </div>
+                </>
     );
 };
 

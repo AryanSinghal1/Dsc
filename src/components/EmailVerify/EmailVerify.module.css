@@ -1,4 +1,4 @@
-.verify{
+/* .verify{
     margin-left: 50vw;
     margin-right: 50vw;
 }
@@ -138,4 +138,405 @@
 
 .valid-feedback{
    color: #2acc80;
+} */
+.verify{
+    max-width: 1440px;
+    margin: 0 auto;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    /* height: 120vh; */
+    /* width: 100%; */
+    /* height: 100vh; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
+.registerForm{
+    width: 70%;
+    height: 100%;
+}
+.eventInfo{
+    margin-top: 3%;
+    width: 100%;
+    height: 10%;
+    /* background-color: #4285f4; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.eventImage{
+    /* background-color: black; */
+    width: 25%;
+    height: 40%;
+}
+.register{
+    width: 100%;
+    height: 130vh;
+    max-height: 1500px;
+}
+.eventh3{
+    font-size: 25px;
+    color: var(--dark-mode-text-color-soft-2);
+    font-weight: 450;
+}
+.profileInfo{
+    width: 100%;
+    border-top: 1.5px solid var(--dark-mode-text-color-soft-2);
+    border-bottom: 1.5px solid var(--dark-mode-text-color-soft-2);
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.profileDetails{
+    height: 100%;
+    width: 60%;
+    /* background-color: aquamarine; */
+}
+.profileForm{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    justify-content: center;
+    /* background-color: blue; */
+}
+.profileFormContainer, .teamFormContainer{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+/* .teamFormContainer{
+    height: 100%;
+} */
+.profileh3{
+    margin-top: 4%;
+    font-size: 28px;
+    font-weight: 450;
+}
+.profileMessage{
+    font-size: 15px;
+}
+.profileFields{
+    /* background-color: black; */
+    height: 22%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.profileInputs{
+    position: relative;
+    height: 65%;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid var(--dark-mode-text-color-soft-1);
+    padding: 0 6px;
+}
+.inputLabel{
+    position: absolute;
+    left: 15px;
+    background-color: #fff;
+    font-size: 15px;
+    top: 3px;
+    font-size: 12px;
+    padding: 0 2px;
+}
+.teamInfo{
+    /* background-color: black; */
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.teamMessage{
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.dscTeamMessage{
+    width: 70%;
+    font-size: 12px;
+    font-weight: 450;
+}
+.regButton{
+    margin: 2.5% 0;
+    align-self: flex-start;
+    border: none;
+    border-radius: 2.5px;
+    text-transform:uppercase;
+    padding: 5px 10px;
+    background-color: #4285f4;
+    color: #fff;
+}
+.teamForm{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1.5%;
+}
+.profileBox{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+.formLabel{
+    width: 60%;
+    font-size: 13px;
+}
+.choiceBox{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.choiceSelect{
+    width: 50%;
+    height: 100%;
+}
+.choices{
+    margin: 5px;
+}
+.form_about{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green;
+    background-color: #4285f4; */
+}
+.form_items{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    /* background-color: aqua; */
+}
+.form_content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.formlogo{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dsclogo{
+    width: 75%;
+}
+.form_content label, .was-validated .form_check_input:invalid~.form_check_label, .was-validated .form_check_input:valid~.form_check_label{
+    color: #fff;
+}
+.form_holder{
+    /* background-color: black; */
+    height: 70vh;
+    width: 25vw;
+    /* padding: 10px 20px; */
+    box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.2), -5px -5px 20px -5px rgba(0, 0, 0, 0.2), 5px 5px 20px -5px rgba(255, 255, 255, 0.2), -5px -5px 20px -5px rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.form_contents{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.form{
+    width: 100%;
+    height: 100%;
+}
+.registerh3{
+    font-size: 25px;
+    text-align: center;
+    /* color: var(--text-color); */
+    color: var(--dark-mode-text-color-2);
+}
+.fill{
+    color: var(--text-color);
+    text-align: center;
+    font-size: 15px;
+    color: var(--dark-mode-text-color-soft-2);
+}
+
+.form_control{
+    background-color: #4285f4;
+    color: white;
+}
+.form_cont{
+    width: 80%;
+    background-color: transparent;
+    border: 1px solid var(--text-color);
+    margin: 8px 0;
+    padding: 8px 16px;
+}
+.form_cont:hover{
+    border: 1px solid  #4285f4;
+}
+/* .form_check{
+    margin: 0;
+    padding: 0;
+} */
+.bts{
+    padding: 4px 16px;
+    margin: 3px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #4285f4;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+.contactImg{
+    width: 75%;
+    height: 75%;
+}
+.form_check{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_check_input{
+    width: 10%;
+    height: 15px;
+    margin-bottom: 12px;
+}
+.form_check_label{
+    /* border: 2px solid black; */
+    font-size: 15px;
+    width: 70%;
+    height: 100%;
+    /* padding: 2.5px 0; */
+    text-align: left;
+    color: var(--dark-mode-text-color-soft-1)
+}
+.form-button{
+    justify-content: flex-end;
+}
+.column{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.form_tag{
+    position: absolute;
+    left: 10px;
+    background-color: #fff;
+    padding: 0 2px;
+    display: none;
+}
+.form_cont:hover .form_tag{
+    display: block;
+}
+@media only screen and (max-width:1024px){
+    .formLabel{
+        font-size: 10px;
+    }
+    .choices{
+        font-size: 12px;
+    }
+    .profileFormContainer, .teamFormContainer{
+        width: 100%;
+    }
+    .profileMessage, .dscTeamMessage{
+        font-size: 12px;
+    }
+    .inputLabel{
+        font-size: 10px;
+        top: 7px;
+    }
+
+}
+        @media only screen and (max-width:768px){
+            .teamForm, .profileDetails, .profileForm, .formLabel, .choiceBox{
+                width: 50%;
+            }
+            .profileh3{
+             font-size: 20px;   
+            }
+            .inputLabel{
+                font-size: 8px;
+                top: 9px;
+            }
+        }
+        @media only screen and (max-width:490px){
+            .profileDetails{
+                height: 20%;
+                width: 100%;
+            }
+            .profileForm{
+                height: 80%;
+                width: 100%;
+            }
+            .profileInfo{
+                flex-direction: column;
+            }
+            .profileFormContainer{
+                height: 100%;
+            }
+            .inputLabel{
+                font-size: 12px;
+                top: 4.5px;
+            }
+            .teamInfo{
+                flex-direction: column;
+            }
+            .teamMessage{
+                height: 30%;
+                width: 100%;
+            }
+            .teamForm{
+                height: 70%;
+                width: 100%;
+            }
+            .teamFormContainer{
+                height: 100%;
+            }
+            .dscTeamMessage{
+                width: 100%;
+            }
+            .formLabel{
+                width: 47%;
+                font-size: 7px;
+            }
+            .eventh3, .profileh3{
+                font-size: 20px;
+            }
+        }
+        @media only screen and (max-width:370px) {
+            .eventh3{font-size: 16px;}
+        }

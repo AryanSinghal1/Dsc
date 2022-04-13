@@ -15,7 +15,7 @@ import blogImage from "../../../assets/images/blog.png";
 const BlogList = () => {
 
   const blogListRender = BlogData.map((data)=>{
-    return <BlogCard key={data.id} date={data.date} month={data.month} year={data.year} link={data.link} title={data.title} author={data.author} description={data.description} image = {data.image}/>
+    return <BlogCard key={data.id} date={data.date} month={data.month} year={data.year} link={data.link} title={data.title} author={data.author} description={data.description} image = {data.image} domain={data.domain}/>
   })
 
   return (
